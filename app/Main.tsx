@@ -5,7 +5,7 @@ export default function Home({ posts }) {
   return (
     <>
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
-        <div className="space-y-2 pt-6 pb-8 md:space-y-5">
+        <div className="relative space-y-2 pt-6 pb-8 md:space-y-5">
           <Image
             src={'/static/images/avatar.jpg'}
             alt="avatar"
